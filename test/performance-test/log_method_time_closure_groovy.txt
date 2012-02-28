@@ -1,0 +1,9 @@
+def timeCall(Closure c) {
+   def start = System.currentTimeMillis()
+   println "Result: " + c()
+   def end = System.currentTimeMillis()
+   println "End of call (duration: ${end - start} ms)"
+   }
+ 
+timeCall({ return "testing 123" })
+ 
