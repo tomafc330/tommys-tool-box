@@ -1,0 +1,10 @@
+{ — Move to start of previous paragraph or code block. 
+} — Move to end of next paragraph or code block. 
+Ctrl+F — Move forward one screenful. 
+Ctrl+B — Move backward one screenful. 
+C[number=0]w  —  Deleting text with intent to replace it by entering insert mode.
+I and A — Moving to the start or end of the line, then inserting
+use Ctrl + [ instead of Esc!
+ddp — Swap the current line with the next
+ddkP — Swap the current line with the previous
+
